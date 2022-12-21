@@ -12,6 +12,7 @@ public class Calculator {
         return a*b;
     }
     public int solver(int a,int b,int c,int d){
-        return add(times(a,dif(b,c)),d);//(3*(5-2))+10
+        return add(times(a,dif(b,c)),d); 
+        //(3*(5-2))+10
     }
 }
